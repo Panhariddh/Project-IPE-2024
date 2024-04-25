@@ -54,7 +54,7 @@ body{
     cursor: pointer;
     width: 50px;
     height: 50px;
-    color: #06283D;
+    color: #024e7e;
     background: #dff6ff;
     border-radius: 50%;
     font-size: 22px;
@@ -68,7 +68,7 @@ body{
 
 .search-box i{
     position: absolute;
-    color: #06283D;
+    color: #b9c8d1;
     font-size: 28px;
 }
 
