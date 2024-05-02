@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>weather app</title>
+    <title>Weather App</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
@@ -12,40 +12,59 @@
 <body>
     <div class="container">
         <div class="search-box">
+              <!-- Icon for indicating location -->
             <i class="fa-solid fa-location-dot"></i>
+              <!-- Input field for entering location -->
             <input type="text" placeholder="Enter your location">
+               <!-- Search button icon -->
             <button class="fa-solid fa-magnifying-glass"></button>
         </div>
-
+    
+        <!-- This section represents the display when a location is not found -->
         <div class="not-found">
             <img src="images/404.png">
+             <!-- Message indicating that the location is invalid -->
             <p>Oops! Invalid location :/</p>
         </div>
 
+        <!-- This section represents the weather information display -->
         <div class="weather-box">
+            <!-- Image for weather condition (e.g., sunny, rainy, etc.) -->
             <img src="">
+            <!-- Placeholder for temperature display -->
             <p class="temperature"></p>
+             <!-- Placeholder for weather description (e.g., cloudy, windy, etc.) -->
             <p class="description"></p>
         </div>
 
+        <!-- This section contains weather details such as humidity and wind speed -->
         <div class="weather-details">
+            <!-- Humidity section -->
             <div class="humidity">
+                <!-- Icon representing water/humidity -->
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
+               <!-- Placeholder for humidity value -->
                     <span></span>
+                    <!-- Label for humidity -->
                     <p>Humidity</p>
                 </div>
             </div>
+            <!-- Wind speed section -->
             <div class="wind">
+                <!-- Icon representing wind -->
                 <i class="fa-solid fa-wind"></i>
                 <div class="text">
+                    <!-- Placeholder for wind speed value -->
                     <span></span>
+                     <!-- Label for wind speed -->
                     <p>Wind Speed</p>
                 </div>
             </div>
         </div>
 
     </div>
+
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
