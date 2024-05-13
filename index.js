@@ -6,9 +6,8 @@ const error404 = document.querySelector('.not-found');
 
 // This code adds an event listener to the 'click' event on the search button
 search.addEventListener('click', () => {
-    // API key for accessing weather data 
-    const APIKey = 'api keyss';
-    // Retrieve the value entered in the search input field
+
+    const APIKey = 'api keys';
     const city = document.querySelector('.search-box input').value;
 
     // Check if the city value is empty
