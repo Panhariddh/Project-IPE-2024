@@ -1,0 +1,1 @@
+This repository is set to public and it is the reason why our project does not display the weather images , weather functionalities and our API keys is not allowed to be used in a public repository. If we want to display and make our weather app/website functional , then we need to set our repository to private and insert the api keys.
