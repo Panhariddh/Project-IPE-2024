@@ -12,9 +12,10 @@ body{
     align-items: center;
     justify-content: center;
     background: #06283D;
+    margin: 0px;
 }
 .container{
-    position: relative;
+    text-align: center;
     width: 400px;
     height: 105px;
     background: #fff;
@@ -26,6 +27,7 @@ body{
 }
 
 .search-box{
+    color: #06283D;
     width: 100%;
     height: min-content;
     display: flex;
@@ -43,10 +45,11 @@ body{
 }
 
 .search-box input::placeholder{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
     color: #06283D;
     text-transform: capitalize;
+    margin: 10px;
 }
 
 .search-box button{
@@ -56,8 +59,9 @@ body{
     color: #06283D;
     background: #dff6ff;
     border-radius: 50%;
-    font-size: 22px;
+    font-size: 25px;
     transition: 0.4s ease;
+    padding: 10px ;
 }
 
 .search-box button:hover{
@@ -65,11 +69,6 @@ body{
     background: #06283D;
 }
 
-.search-box i{
-    position: absolute;
-    color: #06283D;
-    font-size: 28px;
-}
 
 .weather-box{
     text-align: center;
@@ -77,7 +76,7 @@ body{
 
 .weather-box img{
     width: 60%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .weather-box .temperature{
